@@ -7,6 +7,9 @@ export default {
   generate: {
     dir: "dist"
   },
+  plugins: [
+    // '@/plugins/vue-gtag.js' // Add Google Analytics
+  ],
   modules: ["bootstrap-vue/nuxt"],
   head: {
     meta: [
